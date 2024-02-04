@@ -16,7 +16,6 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-
       {/* HEADER */}
       <div className="bg-gray-100 border-b-4 border-gray-200">
         <div className="container max-w-5xl mx-auto p-4 h-28 flex flex-col justify-evenly">
@@ -27,12 +26,11 @@ export default function Home() {
         </div>
       </div>
       {/* /HEADER */}
-
       {/* HOOKS */}
-      <div className="container max-w-5xl mx-auto gap-4 p-4 py-8 flex items-center">
-        <div className="grid grid-cols-4 gap-4">
+      <div className="container max-w-5xl mx-auto p-4 py-8 flex items-center">
+        <div className="grid grid-cols-4 gap-7">
           <div className=" gap-5 grid col-span-3">
-            <h3 className="text-xl font-bold">Hooks</h3>
+            <h3 className="text-2xl font-bold">Hooks</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Temporibus non obcaecati laboriosam, animi necessitatibus aperiam
@@ -63,30 +61,32 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div>
-            <img
-              src=""
-              alt=""
-              className=" h-full border-2 rounded-lg shadow-lg"
-            />
+          <div className="flex items-center">
+            <picture>
+              <img
+                src="/img/hooks.png"
+                alt=""
+                className="max-h-xs rounded-lg shadow-lg"
+              />
+            </picture>
           </div>
         </div>
       </div>
-      {/* /HOOKS */}
-
-      {/* HOOKS */}
+      {/* /APIs */}
       <div className=" bg-gray-100">
-        <div className=" container max-w-5xl mx-auto gap-4 p-4 py-8 flex items-center">
-          <div className="grid grid-cols-4 gap-4">
-            <div>
-              <img
-                src=""
-                alt=""
-                className=" h-full border-2 rounded-lg shadow-lg"
-              />
+        <div className=" container max-w-5xl mx-auto p-4 py-8 flex items-center">
+          <div className="grid grid-cols-4 gap-7">
+            <div className="flex items-center">
+              <picture>
+                <img
+                  src="/img/api.jpg"
+                  alt=""
+                  className="max-h-xs relative rounded-lg shadow-lg"
+                />
+              </picture>
             </div>
             <div className=" gap-5 grid col-span-3">
-              <h3 className="text-xl font-bold">Hooks</h3>
+              <h3 className="text-2xl font-bold">Consumindo APIs</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Temporibus non obcaecati laboriosam, animi necessitatibus
@@ -101,7 +101,7 @@ export default function Home() {
                   href="/hooks"
                   className="inline-flex items-center bg-cyan-500 px-3 py-2 rounded text-cyan-900 font-medium hover:bg-cyan-600 hover:shadow-xl transition ease-in-out hover:scale-105 duration-300"
                 >
-                  Acessar projetos de "Hooks"
+                  Acessar projetos de "APIs"
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -120,7 +120,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* /HOOKS */}
+      {/* /APIs */}
     </main>
   );
 }
