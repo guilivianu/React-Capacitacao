@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Button from "../components/Button";
 import Head from "next/head";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +12,7 @@ export default function Home() {
   };
 
   return (
-    <main className="w-screen h-screen bg-gray-50">
+    <main className="w-screen h-screen bg-gray-50 text-gray-600">
       <Head>
         <title>Home</title>
       </Head>
@@ -42,8 +43,8 @@ export default function Home() {
               voluptatibus?
             </p>
             <div>
-              <a
-                href="http://localhost:3000/hooks"
+              <Link
+                href="/hooks"
                 className="inline-flex items-center bg-cyan-500 px-3 py-2 rounded text-cyan-900 font-medium hover:bg-cyan-600 hover:shadow-xl transition ease-in-out hover:scale-105 duration-300"
               >
                 Acessar projetos de "Hooks"
@@ -59,7 +60,7 @@ export default function Home() {
                     clip-rule="evenodd"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <div>
@@ -96,8 +97,8 @@ export default function Home() {
                 asperiores, vel voluptatibus?
               </p>
               <div>
-                <a
-                  href="http://localhost:3000/hooks"
+                <Link
+                  href="/hooks"
                   className="inline-flex items-center bg-cyan-500 px-3 py-2 rounded text-cyan-900 font-medium hover:bg-cyan-600 hover:shadow-xl transition ease-in-out hover:scale-105 duration-300"
                 >
                   Acessar projetos de "Hooks"
@@ -113,7 +114,7 @@ export default function Home() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
