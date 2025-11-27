@@ -12,7 +12,7 @@ export default function Home() {
   };
 
   return (
-    <main className="grid grid-rows-12 w-screen h-screen bg-gray-50 text-gray-600">
+    <main className="grid grid-rows-12 bg-gray-50 text-gray-600">
       <Head>
         <title>Home</title>
       </Head>
@@ -35,13 +35,11 @@ export default function Home() {
             <div className=" gap-5 grid col-span-3">
               <h3 className="text-2xl font-bold">Hooks</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Temporibus non obcaecati laboriosam, animi necessitatibus
-                aperiam eligendi illo corporis voluptates alias maxime? Eius
-                ratione est recusandae explicabo dicta quis eligendi sed,
-                obcaecati aliquid quia minus debitis error. Nobis rem corrupti,
-                veniam aliquam repellat blanditiis, explicabo dolores non nemo
-                asperiores, vel voluptatibus?
+                Hooks são funções que permitem a você "ligar-se" aos recursos de
+                state e ciclo de vida do React a partir de componentes
+                funcionais. Eles permitem que você use o React sem classes,
+                facilitando o compartilhamento de lógica entre componentes e
+                tornando o código mais limpo e modular.
               </p>
               <div>
                 <Link
@@ -56,9 +54,9 @@ export default function Home() {
                     className="w-4 h-4 ml-3"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     />
                   </svg>
                 </Link>
@@ -92,13 +90,11 @@ export default function Home() {
             <div className=" gap-5 grid col-span-3">
               <h3 className="text-2xl font-bold">Consumindo APIs</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Temporibus non obcaecati laboriosam, animi necessitatibus
-                aperiam eligendi illo corporis voluptates alias maxime? Eius
-                ratione est recusandae explicabo dicta quis eligendi sed,
-                obcaecati aliquid quia minus debitis error. Nobis rem corrupti,
-                veniam aliquam repellat blanditiis, explicabo dolores non nemo
-                asperiores, vel voluptatibus?
+                O consumo de APIs é fundamental para aplicações modernas. Nesta
+                seção, exploramos como realizar requisições HTTP assíncronas
+                para buscar e enviar dados para servidores externos, utilizando
+                bibliotecas populares como Axios ou a Fetch API nativa,
+                gerenciando estados de carregamento e erro.
               </p>
               <div>
                 <Link
@@ -113,9 +109,9 @@ export default function Home() {
                     className="w-4 h-4 ml-3"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     />
                   </svg>
                 </Link>

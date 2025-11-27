@@ -45,12 +45,11 @@ export default function HomeHooks() {
 
             <div className="flex flex-col p-6 gap-4">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                nisi numquam inventore, quasi culpa eos temporibus ut debitis
-                sint neque non eaque mollitia iste explicabo nemo. Officia
-                architecto quam omnis nemo! A quod ipsum voluptatem, optio
-                fugiat ratione dicta molestias laboriosam quam placeat nobis eum
-                omnis aliquam. Molestiae, nesciunt tempore.
+                O Hook useState permite adicionar estado local a componentes
+                funcionais. Ele retorna um par: o valor do estado atual e uma
+                função para atualizá-lo. É a maneira fundamental de persistir
+                dados entre renderizações em componentes de função, substituindo
+                o this.state das classes.
               </p>
               <div>
                 <Link
@@ -65,9 +64,9 @@ export default function HomeHooks() {
                     className="w-4 h-4 ml-3"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     />
                   </svg>
                 </Link>
@@ -85,12 +84,11 @@ export default function HomeHooks() {
 
             <div className="flex flex-col p-6 gap-4">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                nisi numquam inventore, quasi culpa eos temporibus ut debitis
-                sint neque non eaque mollitia iste explicabo nemo. Officia
-                architecto quam omnis nemo! A quod ipsum voluptatem, optio
-                fugiat ratione dicta molestias laboriosam quam placeat nobis eum
-                omnis aliquam. Molestiae, nesciunt tempore.
+                O Hook useEffect permite executar efeitos colaterais em
+                componentes funcionais. Ele serve para propósitos semelhantes a
+                componentDidMount, componentDidUpdate e componentWillUnmount em
+                classes, mas unificados em uma única API. É ideal para busca de
+                dados, subscrições ou manipulação manual do DOM.
               </p>
               <div>
                 <Link
@@ -105,9 +103,9 @@ export default function HomeHooks() {
                     className="w-4 h-4 ml-3"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     />
                   </svg>
                 </Link>
