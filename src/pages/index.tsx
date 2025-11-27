@@ -6,6 +6,9 @@ import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? "/React-Capacitacao" : "";
+
 export default function Home() {
   const handleClick = () => {
     console.log("Oi!");
@@ -65,7 +68,7 @@ export default function Home() {
             <div className="flex items-center">
               <picture>
                 <img
-                  src="/img/hooks.png"
+                  src={`${basePath}/img/hooks.png`}
                   alt=""
                   className="max-h-xs rounded-lg shadow-lg"
                 />
@@ -81,7 +84,7 @@ export default function Home() {
             <div className="flex items-center">
               <picture>
                 <img
-                  src="/img/api.jpg"
+                  src={`${basePath}/img/api.jpg`}
                   alt=""
                   className="max-h-xs relative rounded-lg shadow-lg"
                 />
