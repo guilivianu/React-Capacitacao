@@ -38,18 +38,18 @@ export default function Home() {
             <div className=" gap-5 grid col-span-3">
               <h3 className="text-2xl font-bold">Hooks</h3>
               <p>
-                Hooks são funções que permitem a você "ligar-se" aos recursos de
-                state e ciclo de vida do React a partir de componentes
-                funcionais. Eles permitem que você use o React sem classes,
-                facilitando o compartilhamento de lógica entre componentes e
-                tornando o código mais limpo e modular.
+                Hooks são funções que permitem a você &quot;ligar-se&quot; aos
+                recursos de state e ciclo de vida do React a partir de
+                componentes funcionais. Eles permitem que você use o React sem
+                classes, facilitando o compartilhamento de lógica entre
+                componentes e tornando o código mais limpo e modular.
               </p>
               <div>
                 <Link
                   href="/hooks"
                   className="inline-flex items-center bg-cyan-500 px-3 py-2 rounded text-cyan-900 font-medium hover:bg-cyan-600 hover:shadow-xl transition ease-in-out hover:scale-105 duration-300"
                 >
-                  Acessar projetos de "Hooks"
+                  Acessar projetos de &quot;Hooks&quot;
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -104,7 +104,7 @@ export default function Home() {
                   href="/apis"
                   className="inline-flex items-center bg-cyan-500 px-3 py-2 rounded text-cyan-900 font-medium hover:bg-cyan-600 hover:shadow-xl transition ease-in-out hover:scale-105 duration-300"
                 >
-                  Acessar projeto de "APIs"
+                  Acessar projeto de &quot;APIs&quot;
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"

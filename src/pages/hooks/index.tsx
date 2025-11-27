@@ -56,7 +56,7 @@ export default function HomeHooks() {
                   href="/hooks/useState"
                   className="inline-flex items-center bg-cyan-500 px-3 py-2 rounded text-cyan-900 text-sm font-medium hover:bg-cyan-400 hover:shadow-xl"
                 >
-                  Acessar projeto de "useState"
+                  Acessar projeto de &quot;useState&quot;
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -95,7 +95,7 @@ export default function HomeHooks() {
                   href="/hooks/useEffect"
                   className="inline-flex items-center bg-cyan-500 px-3 py-2 rounded text-cyan-900 text-sm font-medium hover:bg-cyan-400 hover:shadow-xl"
                 >
-                  Acessar projeto de "useEffect"
+                  Acessar projeto de &quot;useEffect&quot;
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"

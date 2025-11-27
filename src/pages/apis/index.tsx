@@ -70,7 +70,11 @@ const HomeAPIs: NextPage = () => {
                 films.map((film, index) => (
                   <li key={index}>
                     <picture>
-                      <img src={film.image} className="rounded-lg" />
+                      <img
+                        src={film.image}
+                        alt={film.title || "Filme"}
+                        className="rounded-lg"
+                      />
                     </picture>
                   </li>
                 ))}
